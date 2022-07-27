@@ -4,7 +4,7 @@ a = list(map(int,sys.stdin.readline().split()))
 a.append(l)
 a.sort()
 
-left, right = 1, l-1
+left, right = 0, l-1
 answer = 0
 
 while left<=right:
